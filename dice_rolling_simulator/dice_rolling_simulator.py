@@ -10,7 +10,7 @@ while play:
         answer = input("Roll again? (y/n)")
         print(answer)
         if answer != "y" and answer != "n":
-            print("Invalid Input")
+            print("Invalid input, please enter y or n.")
         else:
             ask = False
     if answer == "y":
